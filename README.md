@@ -37,7 +37,7 @@ pandas==2.2.3
 
 ### Train model
 
-Before poisoning, it is necessary to pre train the model to prepare for subsequent fine-tuning. The train model code is under the AAAA. You will need to download the training data according to the instructions in the code. Please modify the code to the dataset and model you want to train first. 
+Before poisoning, it is necessary to pre train the model to prepare for subsequent fine-tuning. The train model code is under the [code](https://github.com/esther11-max/PixVulNet/blob/master/train_model.py). You will need to download the training data according to the instructions in the code. Please modify the code to the dataset and model you want to train first. 
 Please run
 ```python
 python train_model.py
@@ -46,7 +46,7 @@ python train_model.py
 
 ### Inject backdoor and Finetune
 
-**This is the main code.** Firstly, identify vulnerability points based on mathematical statistical characteristics, modify the pixel values of these vulnerability points, and finally fine tune the initial model obtained in the previous step. Finally,calculate ASR and ACC. Please note that these processes are all automated and only require modifications to the dataset and model. 
+**This is the main code.**[here](https://github.com/esther11-max/PixVulNet/blob/master/main.py) Firstly, identify vulnerability points based on mathematical statistical characteristics, modify the pixel values of these vulnerability points, and finally fine tune the initial model obtained in the previous step. Finally,calculate ASR and ACC. Please note that these processes are all automated and only require modifications to the dataset and model. 
 In order to complete this step,please run 
 ```python
 python main.py
@@ -55,7 +55,7 @@ python main.py
 
 ### Data Augmentation
 
-Train a data augmentation model to observe any changes in attack success rate,please run 
+Train a data augmentation model to observe any changes in attack success rate,[here](https://github.com/esther11-max/PixVulNet/blob/master/train_model_data-aug.py).please run 
 ```python
 python train_model_data-aug.py
 ```
