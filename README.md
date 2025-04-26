@@ -3,10 +3,12 @@
 
 ## BEFORE YOU RUN OUR CODE
 
-We appreciate your interest in our work and trying out our code.If you have any  questions,please feel free to open an issue or contact any of the authors directly.We are more than happy to help you debug your experiment and find out the correct configuration.图链接+代码链接
+We appreciate your interest in our work and trying out our code.If you have any  questions,please feel free to open an issue or contact any of the authors directly.We are more than happy to help you debug your experiment and find out the correct configuration.
+
 
 ## ABOUT
 This repository contains code implementation of the paper "Data-Inherent Vulnerabilities: A Novel Framework for Model-Agnostic Backdoor Attacks"
+![enter image description here](https://github.com/esther11-max/PixVulNet/blob/master/1.png)
 
 
 ## DEPENDENCIES
