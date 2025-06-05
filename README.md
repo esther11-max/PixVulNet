@@ -47,9 +47,19 @@ python train_model.py
 ### Inject backdoor and Finetune
 
 **This is the main code.**[here](https://github.com/esther11-max/PixVulNet/blob/master/main.py) Firstly, identify vulnerability points based on mathematical statistical characteristics, modify the pixel values of these vulnerability points, and finally fine tune the initial model obtained in the previous step. Finally,calculate ASR and ACC. Please note that these processes are all automated and only require modifications to the dataset and model. 
-In order to complete this step,please run 
+If you use a single channel dataset,please run 
 ```python
-python main.py
+python main_single_channel.py
+```
+
+If you use a three channel dataset,please run 
+```python
+python main_three_channel.py
+```
+
+If you use Tiny-ImageNet dataset,please run 
+```python
+python main_imagenet.py
 ```
 
 
