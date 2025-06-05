@@ -63,11 +63,4 @@ python main_imagenet.py
 ```
 
 
-### Data Augmentation
-
-Train a data augmentation model to observe any changes in attack success rate,[here](https://github.com/esther11-max/PixVulNet/blob/master/train_model_data-aug.py).please run 
-```python
-python train_model_data-aug.py
-```
-
 
